@@ -1,0 +1,8 @@
+self.usage_limit_label=tk.Label(root)
+        ft = tkFont.Font(family='Arial',size=8)
+        self.usage_limit_label["font"] = ft
+        self.usage_limit_label["bg"] = "#4d4d4d"
+        self.usage_limit_label["fg"] = "White"
+        self.usage_limit_label["justify"] = "center"
+        self.usage_limit_label["text"] = "Usage Limit (%):"
+        self.usage_limit_label.place(relx=0.01666,rely=0.53,relwidth=0.1333,relheight=0.05)
